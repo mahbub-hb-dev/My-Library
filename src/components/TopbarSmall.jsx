@@ -4,14 +4,14 @@ import { CiSearch } from "react-icons/ci";
 
 const TopbarSmall = () => {
   return (
-    <header className='px-3 py-1 bg-gradient-to-tr from-[#FF7854] to-[#FF5079]'>
+    <header className='px-3 pb-8 bg-gradient-to-tr from-[#FF7854] to-[#FF5079]'>
         <div className='common-div'>
 
             <div className='flex justify-between'>
                 <div className='flex items-center gap-5'>
 
                     <div className='flex items-center'>
-                        <a href="#"> <img className='h-16 mt-2.5' src="../public/images/myLogo/logo.png" alt="Logo" /> </a>
+                        <a href="#"> <img className='h-16 mt-2.5' src="public/images/myLogo/logo.png" alt="Logo" /> </a>
                         {/* <a href="#" className='text-amber-200 text-3xl font-serif italic'> MB </a> */}
                     </div>
         
