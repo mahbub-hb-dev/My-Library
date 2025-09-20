@@ -43,7 +43,7 @@ const AccordionFooter = () => {
 
       </Accordion>
       <div className='text-red-300 py-6 text-center text-xl'>
-            <p> Developed By &copy; Mahbubu Hasan Belal </p>
+            <p> Developed By &copy; Mahbubub Hasan Belal </p>
             <p className="leading-11"> <a href="#" className="hover:underline"> Terms </a> - <a href="#" className="hover:underline"> Privacy </a> </p>
         </div>
     </div>
