@@ -2,11 +2,11 @@ import React from 'react'
 
 const TrendingBooks = () => {
   return (
-    <div>
+    <div className='common-div px-2.5'>
       
         <h2 className='common-h2'> TRENDING BOOK'S &nbsp; <a href="#"> (View All) </a> </h2>
 
-        <div className='common-div justify-center gap-3 max-sm:grid max-sm:grid-cols-2 min-sm:flex min-sm:flex-wrap'>
+        <div className='justify-center gap-3 max-sm:grid max-sm:grid-cols-2 min-sm:flex min-sm:flex-wrap'>
             <div>
                 <img src="images/trending/t-1.jpg" alt="genre 1" />
                 <p> <a href="#" className='hover:underline'> Excercise Is Murder</a> </p>
