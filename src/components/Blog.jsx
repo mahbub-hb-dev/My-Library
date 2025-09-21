@@ -2,7 +2,7 @@ import React from 'react'
 
 const Blog = () => {
   return (
-    <div className='bg-[#FBFBFB]'>
+    <div className='bg-[#f8fcff] py-4'>
       <div  className='common-div my-10 p-2.5'>
         <h2 className='common-h2'> FROM THE BLOG &nbsp; <a href="#"> (View All) </a> </h2>
 

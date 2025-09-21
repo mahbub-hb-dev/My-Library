@@ -18,7 +18,7 @@
         @apply md:w-[750px] lg:w-[990px] xl:w-[1240px] mx-auto;
     }
     .common-h2 {
-        @apply text-[20px] text-gray-500 font-[600] mb-10 md:w-[750px] lg:w-[990px] xl:w-[1240px] mx-auto; 
+        @apply text-[20px] text-gray-600 font-[600] mb-10 md:w-[750px] lg:w-[990px] xl:w-[1240px] mx-auto; 
         a {
             @apply text-green-600 text-[15px] font-normal hover:underline;
         }
