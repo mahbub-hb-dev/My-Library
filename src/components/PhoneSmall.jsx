@@ -5,7 +5,7 @@ const PhoneSmall = () => {
     <div className='my-8'>
       
         <div className='bg-[linear-gradient(to_bottom,white_15%,#FF5079_15%,#FF7854_77%,#8EA2B7_77%,#8EA2B7_100%)]'>
-            <img className='block mx-auto m-0' src="images/phones.png" alt="Phones image" />
+            <img className='block mx-auto m-0' src="/images/phones.png" alt="Phones image" />
         </div>
 
         <div className='py-5 px-3 bg-gradient-to-tr from-[#FF7854] to-[#FF5079]'>

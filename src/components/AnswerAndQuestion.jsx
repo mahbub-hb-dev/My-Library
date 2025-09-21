@@ -28,7 +28,7 @@ const AnswerAndQuestion = () => {
                     <IoPersonCircleSharp className='text-5xl text-gray-500 mr-2.5' />
                     <p className='font-bold'> <a href="#" className='text-green-600'> Marina Corp </a> on <a href="#" className='text-green-600'> What book terrified you the most? </a> </p>
                 </div>
-                <p> Yes </p>
+                <p> The horror book has terrifited me the most. </p>
             </div>
 
             <div className='border-b border-b-gray-200 py-7 text-[17px]'>

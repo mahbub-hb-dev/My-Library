@@ -11,7 +11,7 @@ const TopbarSmall = () => {
                 <div className='flex items-center gap-5'>
 
                     <div className='flex items-center'>
-                        <a href="#"> <img className='h-16 mt-2.5' src="images/myLogo/logo.png" alt="Logo" /> </a>
+                        <a href="#"> <img className='h-16 mt-2.5' src="/images/myLogo/logo.png" alt="Logo" /> </a>
                         {/* <a href="#" className='text-amber-200 text-3xl font-serif italic'> MB </a> */}
                     </div>
         

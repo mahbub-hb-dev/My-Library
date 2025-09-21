@@ -5,7 +5,7 @@ const PhoneBig = () => {
     <div className='my-8 flex bg-[linear-gradient(to_bottom,white_15%,#FF5079_15%,#FF7854_77%,#8EA2B7_77%,#8EA2B7_100%)]'>
 
         <div className='w-[60%]'>
-            <img className='block mx-auto' src="images/phones.png" alt="Phones image" />
+            <img className='block mx-auto' src="/images/phones.png" alt="Phones image" />
         </div>
 
         <div className='w-40% text-white p-12 text-right flex flex-col justify-between'>
