@@ -1,4 +1,77 @@
-import React from 'react'
+const genresBooks = [
+    {
+        id : 1,
+        title : "ROMANCE",
+        image : "/images/genres/genre-1.png",
+        alt : "Genre book 1"
+    },
+    {
+        id : 2,
+        title : "ACTION & ADVENTURE",
+        image : "/images/genres/genre-2.png",
+        alt : "Genre book 2"
+    },
+    {
+        id : 3,
+        title : "MYSTERY & THRILLER",
+        image : "/images/genres/genre-3.png",
+        alt : "Genre book 3"
+    },
+    {
+        id : 4,
+        title : "BIOGRAPHIES & HISTORY",
+        image : "/images/genres/genre-4.png",
+        alt : "Genre book 4"
+    },
+    {
+        id : 5,
+        title : "CHILDREN'S",
+        image : "/images/genres/genre-5.png",
+        alt : "Genre book 5"
+    },
+    {
+        id : 6,
+        title : "YOUNG ADULT",
+        image : "/images/genres/genre-6.png",
+        alt : "Genre book 6"
+    },
+    {
+        id : 7,
+        title : "FANTASY",
+        image : "/images/genres/genre-7.png",
+        alt : "Genre book 7"
+    },
+    {
+        id : 8,
+        title : "HISTORICAL FICTION",
+        image : "/images/genres/genre-8.png",
+        alt : "Genre book 8"
+    },
+    {
+        id : 9,
+        title : "HORROR",
+        image : "/images/genres/genre-9.png",
+        alt : "Genre book 9"
+    },
+    {
+        id : 10,
+        title : "LITERARY FICTION",
+        image : "/images/genres/genre-10.png",
+        alt : "Genre book 10"
+    },
+    {
+        id : 11,
+        title : "NON-FICTION",
+        image : "/images/genres/genre-11.png",
+        alt : "Genre book 11"
+    },
+    {
+        id : 12,
+        title : "SCIENCE FICTION",
+        image : "/images/genres/genre-12.png",
+        alt : "Genre book 12"
+    },
+]
 
 const Genres = () => {
   return (
@@ -7,65 +80,12 @@ const Genres = () => {
         <h2 className='common-h2'> BROWS GENRES &nbsp; <a href="#"> (View All) </a> </h2>
 
         <div className='common-div grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6'>
-            <div className='relative'>
-                <img src="/images/genres/genre-1.png" alt="genre 1" />
-                <a className='genre-link' href="#"> ROMANCE </a>
-            </div>
-
-            <div className='relative'>
-                <img src="/images/genres/genre-2.png" alt="genre 2" />
-                <a className='genre-link' href="#"> ACTION & ADVENTURE </a>
-            </div>
-
-            <div className='relative'>
-                <img src="/images/genres/genre-3.png" alt="genre 3" />
-                <a className='genre-link' href="#"> MYSTERY & THRILLER </a>
-            </div>
-
-            <div className='relative'>
-                <img src="/images/genres/genre-4.png" alt="genre 4" />
-                <a className='genre-link' href="#"> BIOGRAPHIES & HISTORY </a>
-            </div>
-
-            <div className='relative'>
-                <img src="/images/genres/genre-5.png" alt="genre 5" />
-                <a className='genre-link' href="#"> CHILDREN'S </a>
-            </div>
-
-            <div className='relative'>
-                <img src="/images/genres/genre-6.png" alt="genre 6" />
-                <a className='genre-link' href="#"> YOUNG ADULT </a>
-            </div>
-
-            <div className='relative'>
-                <img src="/images/genres/genre-7.png" alt="genre 7" />
-                <a className='genre-link' href="#"> FANTASY </a>
-            </div>
-
-            <div className='relative'>
-                <img src="/images/genres/genre-8.png" alt="genre 8" />
-                <a className='genre-link' href="#"> HISTORICAL FICTION </a>
-            </div>
-
-            <div className='relative'>
-                <img src="/images/genres/genre-9.png" alt="genre 9" />
-                <a className='genre-link' href="#"> HORROR </a>
-            </div>
-
-            <div className='relative'>
-                <img src="/images/genres/genre-10.png" alt="genre 10" />
-                <a className='genre-link' href="#"> LITERARY FICTION </a>
-            </div>
-
-            <div className='relative'>
-                <img src="/images/genres/genre-11.png" alt="genre 11" />
-                <a className='genre-link' href="#"> NON-FICTION </a>
-            </div>
-
-            <div className='relative'>
-                <img src="/images/genres/genre-12.png" alt="genre 12" />
-                <a className='genre-link' href="#"> SCIENCE FICTION </a>
-            </div>
+            {genresBooks.map((data, index) => (
+                <div key={index} className='relative'>
+                    <img src={data.image} alt={data.alt} />
+                    <a className='genre-link' href="#"> {data.title} </a>
+                </div>
+            ))}
         </div>
 
     </div>
